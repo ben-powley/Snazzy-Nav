@@ -1,0 +1,26 @@
+{
+  "name": "snazzy-nav",
+  "version": "0.1",
+  "authors": [
+    "Ben Powley <ben.powley97@gmail.com>"
+  ],
+  "description": "A snazzy, responsive navigation bar written in SASS.",
+  "main": "css/snazzy-nav.css",
+  "dependancies": {
+      "jquery": "1.11.3"
+  },
+  "keywords": [
+    "snazzy",
+    "nav",
+    "css",
+    "sass"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

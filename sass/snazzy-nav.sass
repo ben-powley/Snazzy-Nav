@@ -1,0 +1,85 @@
+// Resets - Usually not needed if being included in project
+// Remove body styling from this file before using in existing project
+
+body
+    margin: 0
+    padding: 0
+    font-family: sans-serif
+
+// Main Nav
+$navbar-bg-color: #000
+$navbar-hover-bg-color: #666
+$navbar-dropdown-bg-color: $navbar-bg-color
+
+nav
+    .nav-handle-container
+        box-sizing: border-box
+        width: 100%
+        padding: 30px
+        min-height: 150px
+        background: $navbar-dropdown-bg-color
+        cursor: pointer
+        transition: all .3s ease-in-out
+        display: none
+
+        .nav-handle
+            height: 5px
+            width: 50px
+            background: white
+            position: absolute
+            display: block
+            left: calc(100% - 100px)
+            top: 75px
+
+            &:before,
+            &:after
+                content: ""
+                height: 5px
+                width: 50px
+                background: white
+                position: absolute
+                display: block
+
+            &:before
+                top: -20px
+            &:after
+                bottom: -20px
+
+    ul
+        list-style: none
+        background-color: $navbar-bg-color
+        overflow: hidden
+        color: white
+        margin: 0
+        padding: 0
+        text-align: center
+        transition: max-height .4s ease-in-out
+
+        li
+            display: inline-block
+            padding: 20px
+
+            a
+                text-decoration: none
+                color: inherit
+
+            &:hover
+                background: $navbar-hover-bg-color
+
+@media screen and (max-width: 1281px)
+    nav
+        .showing
+            max-height: 30.5em
+
+        ul
+            max-height: 0px
+
+            li
+                box-sizing: border-box
+                width: 100%
+                padding: 35px
+                text-align: left
+                font-size: 2.6em
+
+    nav .nav-handle-container
+        display: block
