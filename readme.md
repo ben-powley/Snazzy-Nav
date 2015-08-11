@@ -6,7 +6,7 @@ Snazzy-Nav is a simple, responsive navigation bar that is written in SASS and us
 
 ---
 
-The SASS source is included for changing colors of the navbar. The default colors are black for the background and white for the text-color.
+The SASS source is included for changing colors of the navbar. The default colors are #2196F3 for the background and white for the text-color.
 
 ## Installation
 
