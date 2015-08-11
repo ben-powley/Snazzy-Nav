@@ -2,7 +2,7 @@
 
 Snazzy-Nav is a simple, responsive navigation bar that is written in SASS and uses jquery.
 
-<a href="http://ben-powley.github.io/Snazzy-Nav/">Live demo</a>
+<a href="http://ben-powley.github.io/snazzy-nav/">Live demo</a>
 
 ---
 
