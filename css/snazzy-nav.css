@@ -9,7 +9,7 @@ nav .nav-handle-container {
   width: 100%;
   padding: 30px;
   min-height: 150px;
-  background: #000;
+  background: #2196F3;
   cursor: pointer;
   -webkit-transition: all 0.3s ease-in-out;
           transition: all 0.3s ease-in-out;
@@ -47,7 +47,7 @@ nav .nav-handle-container .nav-handle:after {
 
 nav ul {
   list-style: none;
-  background-color: #000;
+  background-color: #2196F3;
   overflow: hidden;
   color: white;
   margin: 0;
@@ -68,7 +68,7 @@ nav ul li a {
 }
 
 nav ul li:hover {
-  background: #666;
+  background: #1976D2;
 }
 
 @media screen and (max-width: 1281px) {
